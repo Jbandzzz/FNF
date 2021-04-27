@@ -1,5 +1,3 @@
---// ENV
-
 islclosure = islclosure or is_l_closure
 getgc = getgc or get_gc_objects
 getconstants = getconstants or debug.getconstants
@@ -28,7 +26,7 @@ do
 
     Variables.Constants.DISTANCE_TO_ACCURACY = {
         ["Sick"] = 0.01,
-        ["Good"] = 0.5,
+        ["Good"] = 0.05,
         ["Ok"] = 0.15,
         ["Bad"] = 0.2
     }
